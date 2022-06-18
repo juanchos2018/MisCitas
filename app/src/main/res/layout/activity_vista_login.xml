@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Vistas.VistaLogin"
+    android:background="@drawable/fondoclinica">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/logomiscitas"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+            </ImageView>
+
+
+            <EditText
+                android:id="@+id/etDni"
+                android:hint="Dni"
+                android:paddingLeft="10dp"
+                android:inputType="number"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/borde_et1">
+            </EditText>
+
+            <Button
+                android:id="@+id/btnconsultar"
+                android:text="Consultar"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFFF"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="55dp"
+                android:background="@drawable/borde_boton1">
+            </Button>
+
+            <EditText
+                android:id="@+id/etNombres"
+                android:hint="Nombres"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="text"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/borde_et1">
+            </EditText>
+            <EditText
+                android:id="@+id/etApellidos"
+                android:hint="Apellidos"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="text"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/borde_et1">
+            </EditText>
+            <Button
+                android:id="@+id/btningresar"
+                android:text="Ingresar"
+                android:textColor="#FFFF"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="55dp"
+                android:background="@drawable/borde_boton2">
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
